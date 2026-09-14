@@ -12,13 +12,14 @@ namespace BUOI2
             int tong;
 
             Console.Write("Nhap a, b: ");
-            string[] tam = Console.ReadLine().Split();
+            string[] num  = Console.ReadLine().Split(); // nhập dữ liệu rồi tách chuỗi
 
-            a = int.Parse(tam[0]);
-            b = int.Parse(tam[1]);
+            // chuyển phần tử thành số nguyên
+            a = int.Parse(num[0]); // num[0] : vị trí đầu tiên của mảng
+            b = int.Parse(num[1]);
 
             tong = b * (b + 1) / 2 - (a - 1) * a / 2;
-            Console.WriteLine("tong cua cac so trong doan: ", a, b, tong);
+            Console.WriteLine("tong cua cac so trong doan [{0}, {1}] là {2} ", a, b, tong); // {0},{1},{2} là vị trí để đưa giá trị biến vào chuỗi.
         }
     }
 }
