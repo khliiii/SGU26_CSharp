@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/LAB1/">
     <Project Path="BUOI1/BUOI1.csproj" />
+    <Project Path="BUOI2/BUOI2.csproj" Id="de07e348-83ac-4fc9-b557-fece548f7344" />
   </Folder>
 </Solution>
