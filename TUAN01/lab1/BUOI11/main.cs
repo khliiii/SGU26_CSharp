@@ -1,10 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BUOI11
 {
-    internal class main
+    class Program
     {
+        static void Main(string[] args)
+        {
+            bai1.xuly(args);
+            bai2.xuly(args);
+            bai3.xuly(args);
+            bai4.xuly(args);
+        }
     }
 }
