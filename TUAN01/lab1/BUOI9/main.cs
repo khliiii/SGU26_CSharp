@@ -28,14 +28,14 @@ namespace BUOI9
                     case 1:
                         bai1.chay();
                         break;
-                    //case 2:
-                    //    bai2.chay();
-                    //    break;
-                    //case 3:
-                    //    bai3.chay();
-                    //    break;
-                    //case 4:
-                    //    bai4.chay();
+                    case 2:
+                        bai2.chay();
+                        break;
+                    case 3:
+                        bai3.chay();
+                        break;
+                    case 4:
+                        bai4.chay();
                         break;
                     case 0:
                         Console.WriteLine("ket thuc");
